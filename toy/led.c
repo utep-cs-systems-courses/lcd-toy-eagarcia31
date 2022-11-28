@@ -4,7 +4,7 @@
 #include "stateMachine.h"
 
 unsigned char red_on=0, green_on=0;
-static char redVal[]={0,LED_RED}, greenVal[]={0,LED_GREEN);
+static char redVal[]={0,LED_RED}, greenVal[]={0,LED_GREEN};
 
 void led_init(){
   P1DIR |= LEDS;
